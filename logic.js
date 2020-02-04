@@ -20,10 +20,10 @@ $('input[type="text"]').each(function () {
     const letsGrab = localStorage.getItem(getting); 
     document.getElementById(getting).value = letsGrab; 
 });
-
+colorChecks(8, "#eightAm");
 colorChecks(9, "#nineAm"); //Calling the colorChecks function and passing the arguments of 9 for 9am and its corresponding id
 colorChecks(10, "#tenAm"); // This does the same function as line 26
-colorChecks(11, "#eleven"); // This does the same function as line 26
+colorChecks(11, "#elevenAm"); // This does the same function as line 26
 colorChecks(12, "#noon"); // This does the same function as line 26
 colorChecks(13, "#onePm"); // This does the same function as line 26
 colorChecks(14, "#twoPm"); // This does the same function as line 26

@@ -3,6 +3,8 @@
     font-size: 16px;
     line-height: 1;
     text-align-last: center;
+    background-image: url(planner.jpeg);
+    color: white;
   }
   
   textarea{
@@ -10,84 +12,104 @@
     border: none;
     resize: none;
     color: #000000;
-    border-left: 1px solid black;
+    /* border-left: 1px solid black; */
   }
   
   #container{
     font-variant-caps: small-caps;
     align-items: center;
     text-align-last: center;
-    max-width: 1140px;
+    max-width: 1400px;
   }
   .jumbotron {
     text-align: center;
     background-color: transparent;
-    color: black;
+    color: silver;
     border-radius: 0;
-    border-bottom: 10px solid black;
+    border-bottom: 10px solid silver;
   }
   
-  .description{
+  /* .description{
     white-space: pre-wrap;
-  }
+  } */
   
   .time-block{
     text-align: center;
     border-radius: 15px;
     display: inline-block;
-    margin-left: 50px;
+    /* margin-left: 50px; */
+  }
+  #eightAm{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-left: 0px;
+    width: 200px;
   }
   #nineAm{
-    margin-left: 25px;
-    width: 500px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-left: 0px;
+    width: 200px;
   }
   #tenAm{
-    margin-left: 25px;
-    width: 500px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-left: 0px;
+    width: 200px;
   }
-  #eleven{
-    margin-left: 25px;
-    width: 500px;
+  #elevenAm{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-left: 0px;
+    width: 200px;
   }
   #noon{
-    margin-left: 25px;
-    width: 500px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-left: 0px;
+    width: 200px;
   }
   #onePm{
-    margin-left: 25px;
-    width: 500px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-left: 0px;
+    width: 200px;
   }
   #twoPm{
-    margin-left: 25px;
-    width: 500px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-left: 0px;
+    width: 200px;
   }
   #threePm{
-    margin-left: 25px;
-    width: 500px;
-  }
-  #tenPm{
-    margin-left: 25px;
-    width: 500px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-left: 0px;
+    width: 200px;
   }
   #fourPm{
-    margin-left: 25px;
-    width: 500px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-left: 0px;
+    width: 200px;
   }
   #fivePm{
-    margin-left: 25px;
-    width: 500px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-left: 0px;
+    width: 200px;
   }
   
   .row {
     white-space: pre-wrap;
-    height: 80px;
-    /* text-align: left; */
+    height: 60px;
+    text-align: center;
   }
   
   .hour {
-    background-color: #ffffff;
+    background-color: #d3d3d3;
     color: #000000;
-    border-top: 1px dashed #000000;
+    border-top: 1px solid #000000;
   }
   
   .past {
@@ -105,17 +127,19 @@
     color: black;
   }
   hr {
-    width: 117px;
-    margin-left: -40px;
-    margin-right: 50px;
-    height: 1px;
-    background-color:black;
+    width: 100%;
+    margin-left: -50px;
+    /* margin-right: 50px; */
+    height: 2px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: silver;
     -webkit-margin-collapse: discard;
     }
   
   
   .saveBtn {
-    /* border-left: 1px solid black; */
+    border-left: 1px solid black;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     background-color: #06AED5;
@@ -124,7 +148,64 @@
   }
   
   .saveBtn i:hover {
-    font-size: 20px;
+    font-size: 30px;
     transition: all .3s ease-in-out;
+    color: green;
   }
+/* 
+  @media screen and (min-width: 0px) {
+    .row.time-block {
+      margin-left: 0px;
+      width: 200px;
+    }
+  } */
+  
+  @media screen and (min-width: 800px) {
+    #eightAm {
+    margin-left: 25px;
+    width: 500px;
+    }
+    #nineAm {
+    margin-left: 25px;
+    width: 500px;
+    }
+    #tenAm {
+    margin-left: 25px;
+    width: 500px;
+    }
+    #elevenAm {
+    margin-left: 25px;
+    width: 500px;
+    }
+    #noon {
+    margin-left: 25px;
+    width: 500px;
+    }
+    #onePm {
+    margin-left: 25px;
+    width: 500px;
+    }          
+    #twoPm {
+    margin-left: 25px;
+    width: 500px;
+    }
+    #threePm {
+    margin-left: 25px;
+    width: 500px;
+    }
+    #fourPm {
+    margin-left: 25px;
+    width: 500px;
+    }
+    #fivePm {
+    margin-left: 25px;
+    width: 500px;
+    }
+    
+  }
+
+  
+  
+
+
   
